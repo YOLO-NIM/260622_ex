@@ -11,7 +11,7 @@
 
 import java.util.*;
 
-public class CorrectPart_02 {
+public class correctPart_02 {
     /** 01. 기본 풀이
      * 1) 문자열을 하나씩 분리 후 스택에 넣는다.
      * 2) 스택에서 pop하여 '('와 ')'의 개수를 계산한다.
@@ -114,7 +114,7 @@ public class CorrectPart_02 {
     }
 
     public static void main(String[] args){
-        CorrectPart_02 sol = new CorrectPart_02();
+        correctPart_02 sol = new correctPart_02();
 
         String[] str = {"()()", "(())()", ")()(", "(()("};
         System.out.println("solution01 Result1 :" + sol.solution01(str[0]));
